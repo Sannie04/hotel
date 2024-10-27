@@ -1,0 +1,45 @@
+.home {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-section input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .hotel-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .hotel-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .offers, .testimonials {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .home-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

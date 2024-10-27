@@ -1,0 +1,63 @@
+.header {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4081c7;
+  color: white; 
+  padding: 5px 20px;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: "Bookman", serif;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  display: inline;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+}
+
+.auth-icon {
+  font-size: 30px; /* Kích thước của icon */
+  color: white;
+  margin-right: 10px; /* Điều chỉnh khoảng cách giữa icon và chữ */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4081c7;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.auth-buttons button:hover {
+  background-color: #306ca0; /* Thay đổi màu khi hover */
+}
